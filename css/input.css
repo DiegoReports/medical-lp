@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply text-secondary font-primary text-[17px] leading-8;
+  @apply text-secondary font-primary text-[14px] leading-8;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .input, .select {
-  @apply  w-full rounded-[10px] h-[66px] outline-none border border-[#DBDFDF] text-secondary font-light placeholder:font-light placeholder:text-secondary;
+  @apply w-full rounded-[10px] h-[66px] outline-none border border-[#DBDFDF] text-secondary font-light placeholder:font-light placeholder:text-secondary;
 }
 
 .input {
@@ -73,3 +73,11 @@ h1,h2,h3,h4,h5,h6 {
 .faq__item.open .faq__answer {
   @apply h-full;
 }
+
+.left-0 {
+  left: 0;
+}
+
+/* .-left-hidde {
+  @apply -left-[300px];
+} */

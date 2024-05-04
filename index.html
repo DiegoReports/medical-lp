@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Insove</title>
   <!-- CSS -->
@@ -20,7 +20,92 @@
 </head>
 
 <body>
-  <h1>Hello</h1>
+  <!-- header -->
+  <header class="py-8 lg:pt-6 lg:pb-14">
+    <div class="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between gap-y-4 lg:gap-y-0">
+      <!-- logo -->
+      <div class="flex justify-center lg:justify-normal">
+        <a href="#">
+          <img src="./assets/img/header/logo.svg" alt="Logo do Hospital Insove">
+        </a>
+      </div>
+
+      <div class="flex flex-col gap-y-4 lg:flex-row lg:gap-x-10 lg:gap-y-0">
+        <!-- location -->
+        <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
+          <i class="ri-map-pin-fill text-2xl text-accent"></i>
+          <div class="text-secondary">123 Rua Saudavéis, São Paulo, BR</div>
+        </div>
+        <!-- phone -->
+        <div class="flex justify-center items-center gap-x-2 lg:justify-normal">
+          <i class="ri-phone-fill text-2xl text-accent"></i>
+          <div class="text-secondary">(+55) 11 1234-5678</div>
+        </div>
+        <!-- btn -->
+        <button class="btn btn-sm btn-outline w-[240px] lg:w-auto mx-auto lg:mx-0">Agende agora</button>
+        <!-- mobile nav -->
+        <nav
+          class="mnav bg-white fixed w-[300px] top-0 h-screen -left-[300px] shadow-2xl lg:hidden transition-all duration-300 z-20">
+          <!-- nav gatilho btn-->
+          <div
+            class="mnav__close-btn bg-primary w-8 h-8 relative -right-full top-8 flex justify-center items-center rounded-tr-lg rounded-br-lg cursor-pointer transition-all">
+            <i class="mnav__close-btn-icon ri-arrow-right-s-line text-2xl text-white"></i>
+          </div>
+
+          <!-- logo, lista, form -->
+          <div class="px-12 flex flex-col gap-y-12 h-full">
+            <!-- logo -->
+            <a href="#">
+              <img src="/assets/img/header/logo.svg" alt="Logotipo da Insove" />
+            </a>
+            <!-- lista -->
+            <ul class="flex flex-col gap-y-5">
+              <li><a href="#" class="text-secondary hover:text-accent transition-all duration-300">Home</a></li>
+              <li><a href="#" class="text-secondary hover:text-accent transition-all duration-300">Doutores</a></li>
+              <li><a href="#" class="text-secondary hover:text-accent transition-all duration-300">Departamento</a></li>
+              <li><a href="#" class="text-secondary hover:text-accent transition-all duration-300">Serviços</a></li>
+              <li><a href="#" class="text-secondary hover:text-accent transition-all duration-300">Blog</a></li>
+              <li><a href="#" class="text-secondary hover:text-accent transition-all duration-300">Contato</a></li>
+            </ul>
+            <!-- form -->
+            <form class="relative flex gap-x-[10px]">
+              <label for="mnav-search-input">
+                <i class="ri-search-line text-2xl text-accent"></i>
+              </label>
+              <input type="text" id="mnav-search-input" placeholder="Buscar..."
+                class="outline-none w-[160px] border-b-2 focus:border-b-2 focus:border-accent placeholder:italic transition-all duration-300">
+            </form>
+          </div>
+        </nav>
+        <!-- desktop nav -->
+        <nav
+          class="bg-white absolute w-full left-0 -bottom-[86px] shadow-custom1 h-16 rounded-[10px] hidden lg:flex lg:items-center lg:justify-between lg:px-[50px]">
+          <!-- lista -->
+          <ul class="flex gap-x-4">
+            <li><a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Home</a>
+            </li>
+            <li><a href="#"
+                class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Doutores</a></li>
+            <li><a href="#"
+                class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Departamento</a></li>
+            <li><a href="#"
+                class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Serviços</a></li>
+            <li><a href="#" class="border-r pr-4 text-secondary hover:text-accent transition-all duration-300">Blog</a>
+            </li>
+            <li><a href="#" class="text-secondary hover:text-accent transition-all duration-300">Contato</a></li>
+          </ul>
+          <!-- form -->
+          <form class="relative flex gap-x-[10px]">
+            <label for="search-input" class="flex justify-center items-center group">
+              <i class="ri-search-line text-2xl text-accent"></i>
+            </label>
+            <input type="text" id="search-input" placeholder="Buscar..."
+              class="outline-none w-[100px] focus:w-[180px] focus:border-b-2 focus:border-accent placeholder:italic placeholder:text-base transition-all duration-150">
+          </form>
+        </nav>
+      </div>
+    </div>
+  </header>
   <!-- SCRIPTS -->
   <!-- Swiper -->
   <script src="./js/swiper-bundle.min.js"></script>
