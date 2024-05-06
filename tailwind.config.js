@@ -34,7 +34,7 @@ module.exports = {
       backgroundImage: {
         services: 'url(../../assets/img/services/bg.svg)',
         testimonials: 'url(../../assets/img/testimonials/bg.svg)',
-        departaments: 'url(../../assets/img/departaments/bg.svg)',
+        departments: 'url(../../assets/img/departments/bg.svg)',
         quoteLeft: 'url(../../assets/icons/testimonials/quote-left.svg)',
         quoteRight: 'url(../../assets/icons/testimonials/quote-right.svg)'
       }
