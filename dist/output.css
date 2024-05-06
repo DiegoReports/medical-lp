@@ -608,6 +608,10 @@ video {
   right: -100%;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -622,10 +626,6 @@ video {
 
 .top-8 {
   top: 2rem;
-}
-
-.bottom-0 {
-  bottom: 0px;
 }
 
 .-z-10 {
@@ -978,6 +978,11 @@ video {
   border-color: rgb(220 220 220 / var(--tw-border-opacity));
 }
 
+.bg-accent-tertiary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(144 198 205 / var(--tw-bg-opacity));
+}
+
 .bg-grey {
   --tw-bg-opacity: 1;
   background-color: rgb(232 240 241 / var(--tw-bg-opacity));
@@ -997,21 +1002,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-accent-tertiary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(144 198 205 / var(--tw-bg-opacity));
-}
-
 .bg-departments {
-  background-image: url(../../assets/img/departments/bg.svg);
+  background-image: url(../assets/img/departments/bg.svg);
 }
 
 .bg-services {
-  background-image: url(../../assets/img/services/bg.svg);
+  background-image: url(../assets/img/services/bg.svg);
 }
 
 .bg-testimonials {
-  background-image: url(../../assets/img/testimonials/bg.svg);
+  background-image: url(../assets/img/testimonials/bg.svg);
 }
 
 .bg-cover {
@@ -1054,6 +1054,11 @@ video {
   padding-right: 2rem;
 }
 
+.px-\[18px\] {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 .px-\[20px\] {
   padding-left: 20px;
   padding-right: 20px;
@@ -1077,11 +1082,6 @@ video {
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.px-\[18px\] {
-  padding-left: 18px;
-  padding-right: 18px;
 }
 
 .py-\[6px\] {
@@ -1465,7 +1465,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .before\:bg-quoteLeft::before {
   content: var(--tw-content);
-  background-image: url(../../assets/icons/testimonials/quote-left.svg);
+  background-image: url(../assets/icons/testimonials/quote-left.svg);
 }
 
 .before\:bg-contain::before {
@@ -1505,7 +1505,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .after\:bg-quoteRight::after {
   content: var(--tw-content);
-  background-image: url(../../assets/icons/testimonials/quote-right.svg);
+  background-image: url(../assets/icons/testimonials/quote-right.svg);
 }
 
 .after\:bg-contain::after {
