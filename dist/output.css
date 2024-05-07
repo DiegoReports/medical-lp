@@ -1003,15 +1003,15 @@ video {
 }
 
 .bg-departments {
-  background-image: url('../assets/img/departments/bg.svg');
+  background-image: url(../assets/img/departments/bg.svg);
 }
 
 .bg-services {
-  background-image: url('../assets/img/services/services.svg');
+  background-image: url(../assets/img/services/bg.svg);
 }
 
 .bg-testimonials {
-  background-image: url('../assets/img/testimonials/testimonials.svg');
+  background-image: url(../assets/img/testimonials/bg.svg);
 }
 
 .bg-cover {
@@ -1089,6 +1089,16 @@ video {
   padding-bottom: 6px;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -1148,6 +1158,10 @@ video {
   text-transform: uppercase;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-\[190\%\] {
   line-height: 190%;
 }
@@ -1193,6 +1207,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 .shadow-2xl {
