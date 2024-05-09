@@ -1069,16 +1069,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-departments {
-  background-image: url(../../assets/img/departments/bg.svg);
+departmen.bg-departments {
+  background-image: url('../assets/img/departments/bg.svg');
 }
 
 .bg-services {
-  background-image: url(../../assets/img/services/services.svg);
+  background-image: url('../assets/img/services/services.svg');
 }
 
 .bg-testimonials {
-  background-image: url(../../assets/img/testimonials/testimonials.svg);
+  background-image: url('../assets/img/testimonials/testimonials.svg');
 }
 
 .bg-cover {
@@ -1603,7 +1603,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .before\:bg-quoteLeft::before {
   content: var(--tw-content);
-  background-image: url(../../assets/icons/testimonials/quote-left.svg);
+  background-image: url('../assets/icons/testimonials/quote-left.svg');
 }
 
 .before\:bg-contain::before {
@@ -1643,7 +1643,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .after\:bg-quoteRight::after {
   content: var(--tw-content);
-  background-image: url(../../assets/icons/testimonials/quote-right.svg);
+  background-image: url('../assets/icons/testimonials/quote-right.svg');
 }
 
 .after\:bg-contain::after {
