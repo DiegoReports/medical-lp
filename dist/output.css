@@ -723,10 +723,6 @@ video {
   margin-top: 2rem;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -1069,7 +1065,7 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-departmen.bg-departments {
+.bg-departments {
   background-image: url('../assets/img/departments/bg.svg');
 }
 
